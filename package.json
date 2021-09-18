@@ -1,0 +1,39 @@
+{
+  "name": "npm-module-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate to develop npm modules with typescript.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "/lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelFernandez008/npm-module-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "typescript",
+    "boilerplate"
+  ],
+  "author": "Miguel Fernández",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiguelFernandez008/npm-module-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/MiguelFernandez008/npm-module-typescript-boilerplate#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.21",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
